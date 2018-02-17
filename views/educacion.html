@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="stylesheet" href="../css/educacion.css">
+    <title>CV - Curriculum Vitae</title>
+  </head>
+  <body>
+    <header>
+        <img src="../img/logo.svg" alt="JL Ramirez" width="200px">
+        <h1>Curriculum Vitae</h1>
+        <h2>Jos&eacute; Luis Ram&iacute;rez</h2>
+        <h3>18 / Abril / 1993 - Medellin <small>(Colombia)</small></h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educaci&oacute;n</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+      </ul>
+    </nav>
+    <article class="">
+      <section>
+        <h2>Educaci&oacute;n</h2>
+        <table>
+          <thead>
+            <th>Año</th>
+            <th>Instituci&oacute;</th>
+            <th>Lugar</th>
+            <th>¿Culmin&oacute;?</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2010</td>
+              <td>Las Americas</td>
+              <td>Bucaramanga</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2012</td>
+              <td>UIS</td>
+              <td>Bucaramanga</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2015</td>
+              <td>UPB</td>
+              <td>Bucaramanga</td>
+              <td>Si</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h3>Agregar Estudios</h3>
+        <form action="index.html" method="post">
+          <div>
+            <label for="year"><b>Año:</b> </label>
+            <select name="anio">
+                <option value="0" selected disabled>Seleccione Año</option>
+                <option value="1">2018</option>
+                <option value="2">2017</option>
+                <option value="3">2016</option>
+            </select>
+          </div>
+          <div>
+            <label for="school"><b>Instituci&oacute;n:</b> </label>
+            <input type="text" name="institucion" placeholder="Nombre instituci&oacute;n" required>
+          </div>
+          <div>
+            <label for="site"><b>Lugar:</b> </label>
+            <textarea name="lugar" rows="4" cols="40" placeholder="Indique el lugar"></textarea>
+          </div>
+          <div>
+            <label for="end">¿Culmin&oacute;? </label>
+            <input type="radio" name="culminar" value="si">Si
+            <input type="radio" name="culminar" value="no">No
+          </div>
+          <div>
+            <button type="submit" name="button">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </article>
+    <footer>
+      <h3>Contacto</h3>
+      <label for="correo">Correo: </label><em>sid.josep@gmail.com</em><br/>
+      <label for="telefono">Tel&eacute;fono: </label><em>300 8695 4XX</em>
+    </footer>
+  </body>
+</html>

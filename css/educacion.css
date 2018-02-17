@@ -7,3 +7,12 @@ table {
   border-collapse: collapse;
   text-align: center;
 }
+
+.fill {
+  background-color: #F6F6F6;
+  padding: 15px;
+}
+
+body{
+  padding: 25px;
+}
